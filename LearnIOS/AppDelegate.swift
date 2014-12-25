@@ -21,6 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var RootNavigationVC = UINavigationController(rootViewController: currentVC!)
         
+        var logoImage = UIImage(named: "ssicon.png")
+        var ImageView = UIImageView(image: logoImage)
+        ImageView.frame = CGRectMake(0,20,44,44);
+        var PanoVideoText = "时空"
+        var TextLabel = UILabel(frame: CGRectMake(50, 24, 80, 40))
+        TextLabel.text = PanoVideoText
+        TextLabel.font = UIFont(name: "s", size: 20)
+        TextLabel.textColor = UIColor(red: 0.2, green: 1.0, blue: 0.5, alpha: 1.0)
+        
+        RootNavigationVC.view.addSubview(ImageView)
+        RootNavigationVC.view.addSubview(TextLabel)
+        RootNavigationVC.view.backgroundColor = UIColor.blackColor()
         window?.rootViewController = RootNavigationVC
         return true
     }
