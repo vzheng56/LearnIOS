@@ -39,5 +39,20 @@ class ViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //
+        switch indexPath.section {
+        case 0:
+            var btnVC = ButtonViewController(nibName: "ButtonView", bundle: nil)
+            self.navigationController?.pushViewController(btnVC, animated: true)
+        default:
+            println("ddd")
+        }
+    }
+    
+    func ShowNextViewController(vc:UIViewController) {
+        
+    }
+    
 }
 

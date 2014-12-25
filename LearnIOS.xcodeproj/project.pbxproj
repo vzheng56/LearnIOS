@@ -13,6 +13,8 @@
 		05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C41A4BA02900CA76BA /* Images.xcassets */; };
 		05BF76C81A4BA02900CA76BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C61A4BA02900CA76BA /* LaunchScreen.xib */; };
 		05BF76D41A4BA02900CA76BA /* LearnIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76D31A4BA02900CA76BA /* LearnIOSTests.swift */; };
+		05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */; };
+		05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76E01A4BAA7600CA76BA /* ButtonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		05BF76CD1A4BA02900CA76BA /* LearnIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF76D21A4BA02900CA76BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05BF76D31A4BA02900CA76BA /* LearnIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnIOSTests.swift; sourceTree = "<group>"; };
+		05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonViewController.swift; path = SecondVC/ButtonViewController.swift; sourceTree = "<group>"; };
+		05BF76E01A4BAA7600CA76BA /* ButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		05BF76BA1A4BA02900CA76BA /* LearnIOS */ = {
 			isa = PBXGroup;
 			children = (
+				05BF76DD1A4BAA1D00CA76BA /* SecondVC */,
 				05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */,
 				05BF76BF1A4BA02900CA76BA /* ViewController.swift */,
 				05BF76C11A4BA02900CA76BA /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				05BF76D21A4BA02900CA76BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05BF76DD1A4BAA1D00CA76BA /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */,
+				05BF76E01A4BAA7600CA76BA /* ButtonView.xib */,
+			);
+			name = SecondVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,7 @@
 			files = (
 				05BF76C31A4BA02900CA76BA /* Main.storyboard in Resources */,
 				05BF76C81A4BA02900CA76BA /* LaunchScreen.xib in Resources */,
+				05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */,
 				05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
+				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
