@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    var LearnLevels = ["基础知识","TableView"]
+    var LearnLevels = ["基础知识","自带视图","第三方库"]
     var LearnCourses_Base = ["按钮","Slider","Switch"]
     var LearnCourses_TableView = ["TabelView创建"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.backgroundColor = UIColor.whiteColor()
