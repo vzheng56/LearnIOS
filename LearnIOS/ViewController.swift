@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
+    var LearnLevels = ["基础知识"]
+    var LearnCourses = ["按钮"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.backgroundColor = UIColor.whiteColor()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +23,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.LearnLevels.count
+    }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        return self.LearnLevels[section]
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        //
+        var cell = UITableViewCell()
+        cell.textLabel?.text = LearnCourses[indexPath.section]
+        return cell
+    }
+    
 }
 
