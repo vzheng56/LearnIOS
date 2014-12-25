@@ -80,7 +80,7 @@ class ViewController: UITableViewController {
                 PresentVC = nil
             }
             if PresentVC != nil {
-            self.navigationController?.pushViewController(PresentVC!, animated: true)
+                self.navigationController?.pushViewController(PresentVC!, animated: true)
             }
         default:
             println("ddd")
