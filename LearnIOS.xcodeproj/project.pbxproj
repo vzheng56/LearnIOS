@@ -23,6 +23,8 @@
 		05B968271A4CF1620063FA22 /* OtherControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */; };
 		05B9682A1A4D07030063FA22 /* InLineSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */; };
 		05B9682B1A4D07030063FA22 /* InLineSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */; };
+		05B9682E1A4D42340063FA22 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9682C1A4D42340063FA22 /* DetailPageViewController.swift */; };
+		05B9682F1A4D42340063FA22 /* DetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */; };
 		05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */; };
 		05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BF1A4BA02900CA76BA /* ViewController.swift */; };
 		05BF76C31A4BA02900CA76BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C11A4BA02900CA76BA /* Main.storyboard */; };
@@ -60,6 +62,8 @@
 		05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OtherControlsViewController.xib; path = SecondVC/OtherControlsViewController.xib; sourceTree = "<group>"; };
 		05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InLineSwiftViewController.swift; path = SecondVC/InLineSwiftViewController.swift; sourceTree = "<group>"; };
 		05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InLineSwiftViewController.xib; path = SecondVC/InLineSwiftViewController.xib; sourceTree = "<group>"; };
+		05B9682C1A4D42340063FA22 /* DetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPageViewController.xib; sourceTree = "<group>"; };
 		05BF76B81A4BA02900CA76BA /* LearnIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF76BC1A4BA02900CA76BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 				05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */,
 				05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */,
 				05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */,
+				05B9682C1A4D42340063FA22 /* DetailPageViewController.swift */,
+				05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				05B796771A4BB942004A4A99 /* zubuchuhutext.png in Resources */,
 				05B7966C1A4BB942004A4A99 /* a.jpg in Resources */,
 				05B968271A4CF1620063FA22 /* OtherControlsViewController.xib in Resources */,
+				05B9682F1A4D42340063FA22 /* DetailPageViewController.xib in Resources */,
 				05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */,
 				05B796751A4BB942004A4A99 /* Safari.png in Resources */,
 			);
@@ -297,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B9682E1A4D42340063FA22 /* DetailPageViewController.swift in Sources */,
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,

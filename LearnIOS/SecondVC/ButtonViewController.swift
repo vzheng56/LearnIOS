@@ -17,16 +17,17 @@ class ButtonViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController
-        //println()
-        // Do any additional setup after loading the view.
+        var rightBarItem = UIBarButtonItem(title: "详情", style: UIBarButtonItemStyle.Plain, target: self, action: "ShowDetailController")
+        self.navigationItem.rightBarButtonItem = rightBarItem
     }
-
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
     }
 
+    @objc func ShowDetailController() {
+        var DetailVC = DetailPageViewController(nibName: "DetailPageViewController", bundle: nil)
+        self.navigationController?.pushViewController(DetailVC, animated: true)
+    }
 
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

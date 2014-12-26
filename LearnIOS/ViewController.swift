@@ -12,6 +12,7 @@ class ViewController: UITableViewController {
 
     var LearnLevels = ["基础知识","自带视图","第三方库","零碎知识点"]
     var LearnCourses_Base = ["按钮","其他控件"]
+    var LearnCourses_ThirdLabs = ["AFNetworking"]
     var LearnCourses_TableView = ["TabelView创建"]
     var LearnCourses_SomeKnowledge = ["Swift的内联优化"]
     
@@ -32,6 +33,8 @@ class ViewController: UITableViewController {
             return LearnCourses_Base.count
         case 1:
             return LearnCourses_TableView.count
+        case 2:
+            return LearnCourses_ThirdLabs.count
         case 3:
             return LearnCourses_SomeKnowledge.count
         default:
@@ -61,6 +64,10 @@ class ViewController: UITableViewController {
         case 1:
             var cell = UITableViewCell()
             cell.textLabel?.text = LearnCourses_TableView[indexPath.row]
+            return cell
+        case 2:
+            var cell = UITableViewCell()
+            cell.textLabel?.text = LearnCourses_ThirdLabs[indexPath.row]
             return cell
         case 3:
             var cell = UITableViewCell()
