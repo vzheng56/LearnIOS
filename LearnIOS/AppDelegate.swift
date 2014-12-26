@@ -12,8 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
@@ -29,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         TextLabel.text = PanoVideoText
         TextLabel.font = UIFont(name: "s", size: 20)
         TextLabel.textColor = UIColor(red: 0.2, green: 1.0, blue: 0.5, alpha: 1.0)
-        
+        RootNavigationVC.navigationBar.translucent = false
         RootNavigationVC.view.addSubview(ImageView)
         RootNavigationVC.view.addSubview(TextLabel)
         RootNavigationVC.view.backgroundColor = UIColor.blackColor()

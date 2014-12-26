@@ -19,6 +19,10 @@
 		05B796751A4BB942004A4A99 /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B796691A4BB942004A4A99 /* Safari.png */; };
 		05B796761A4BB942004A4A99 /* ssicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B7966A1A4BB942004A4A99 /* ssicon.png */; };
 		05B796771A4BB942004A4A99 /* zubuchuhutext.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B7966B1A4BB942004A4A99 /* zubuchuhutext.png */; };
+		05B968261A4CF1620063FA22 /* OtherControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B968241A4CF1620063FA22 /* OtherControlsViewController.swift */; };
+		05B968271A4CF1620063FA22 /* OtherControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */; };
+		05B9682A1A4D07030063FA22 /* InLineSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */; };
+		05B9682B1A4D07030063FA22 /* InLineSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */; };
 		05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */; };
 		05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BF1A4BA02900CA76BA /* ViewController.swift */; };
 		05BF76C31A4BA02900CA76BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C11A4BA02900CA76BA /* Main.storyboard */; };
@@ -52,6 +56,10 @@
 		05B796691A4BB942004A4A99 /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
 		05B7966A1A4BB942004A4A99 /* ssicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ssicon.png; sourceTree = "<group>"; };
 		05B7966B1A4BB942004A4A99 /* zubuchuhutext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zubuchuhutext.png; sourceTree = "<group>"; };
+		05B968241A4CF1620063FA22 /* OtherControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherControlsViewController.swift; path = SecondVC/OtherControlsViewController.swift; sourceTree = "<group>"; };
+		05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OtherControlsViewController.xib; path = SecondVC/OtherControlsViewController.xib; sourceTree = "<group>"; };
+		05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InLineSwiftViewController.swift; path = SecondVC/InLineSwiftViewController.swift; sourceTree = "<group>"; };
+		05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InLineSwiftViewController.xib; path = SecondVC/InLineSwiftViewController.xib; sourceTree = "<group>"; };
 		05BF76B81A4BA02900CA76BA /* LearnIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF76BC1A4BA02900CA76BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +174,10 @@
 			children = (
 				05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */,
 				05BF76E01A4BAA7600CA76BA /* ButtonView.xib */,
+				05B968241A4CF1620063FA22 /* OtherControlsViewController.swift */,
+				05B968251A4CF1620063FA22 /* OtherControlsViewController.xib */,
+				05B968281A4D07030063FA22 /* InLineSwiftViewController.swift */,
+				05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -253,6 +265,7 @@
 				05B796701A4BB942004A4A99 /* Icon.png in Resources */,
 				05B7966D1A4BB942004A4A99 /* b.jpg in Resources */,
 				05B796741A4BB942004A4A99 /* play@2x.png in Resources */,
+				05B9682B1A4D07030063FA22 /* InLineSwiftViewController.xib in Resources */,
 				05B7966F1A4BB942004A4A99 /* comment.png in Resources */,
 				05B796711A4BB942004A4A99 /* next@2x.png in Resources */,
 				05B796761A4BB942004A4A99 /* ssicon.png in Resources */,
@@ -264,6 +277,7 @@
 				05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */,
 				05B796771A4BB942004A4A99 /* zubuchuhutext.png in Resources */,
 				05B7966C1A4BB942004A4A99 /* a.jpg in Resources */,
+				05B968271A4CF1620063FA22 /* OtherControlsViewController.xib in Resources */,
 				05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */,
 				05B796751A4BB942004A4A99 /* Safari.png in Resources */,
 			);
@@ -286,6 +300,8 @@
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
+				05B9682A1A4D07030063FA22 /* InLineSwiftViewController.swift in Sources */,
+				05B968261A4CF1620063FA22 /* OtherControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
