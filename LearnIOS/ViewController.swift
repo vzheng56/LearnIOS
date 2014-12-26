@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    var LearnLevels = ["基础知识","自带视图","第三方库","零碎知识点"]
+    var LearnLevels = ["Swift基础知识","IOSSDK","第三方库","零碎知识点"]
     var LearnCourses_Base = ["按钮","其他控件"]
     var LearnCourses_ThirdLabs = ["AFNetworking"]
     var LearnCourses_TableView = ["TabelView创建"]
