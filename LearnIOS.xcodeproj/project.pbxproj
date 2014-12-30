@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0586C3EE1A52387100EFFBF5 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */; };
 		0586C3EF1A52387100EFFBF5 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */; };
+		0586C3F21A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */; };
+		0586C3F31A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */; };
 		05B7966C1A4BB942004A4A99 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796601A4BB942004A4A99 /* a.jpg */; };
 		05B7966D1A4BB942004A4A99 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796611A4BB942004A4A99 /* b.jpg */; };
 		05B7966E1A4BB942004A4A99 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B796621A4BB942004A4A99 /* back@2x.png */; };
@@ -50,6 +52,8 @@
 /* Begin PBXFileReference section */
 		0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = SecondVC/AlertViewController.swift; sourceTree = "<group>"; };
 		0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlertViewController.xib; path = SecondVC/AlertViewController.xib; sourceTree = "<group>"; };
+		0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSTextCheckingResultViewController.swift; path = SecondVC/NSTextCheckingResultViewController.swift; sourceTree = "<group>"; };
+		0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NSTextCheckingResultViewController.xib; path = SecondVC/NSTextCheckingResultViewController.xib; sourceTree = "<group>"; };
 		05B796601A4BB942004A4A99 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		05B796611A4BB942004A4A99 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 		05B796621A4BB942004A4A99 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */,
 				0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */,
 				0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */,
+				0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */,
+				0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0586C3F31A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib in Resources */,
 				05B796701A4BB942004A4A99 /* Icon.png in Resources */,
 				05B7966D1A4BB942004A4A99 /* b.jpg in Resources */,
 				05B796741A4BB942004A4A99 /* play@2x.png in Resources */,
@@ -314,6 +321,7 @@
 				05B9682E1A4D42340063FA22 /* DetailPageViewController.swift in Sources */,
 				0586C3EE1A52387100EFFBF5 /* AlertViewController.swift in Sources */,
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
+				0586C3F21A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift in Sources */,
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
 				05B9682A1A4D07030063FA22 /* InLineSwiftViewController.swift in Sources */,

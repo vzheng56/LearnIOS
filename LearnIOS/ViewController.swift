@@ -12,7 +12,7 @@ class ViewController: UITableViewController {
 
     var LearnLevels = ["Swift基础知识","IOSSDK","第三方库","零碎知识点"]
     var LearnCourses_SwiftBase = ["闭包","其他知识"]
-    var LearnCourses_IOSSDK = ["按钮","Alert","其他控件"]
+    var LearnCourses_IOSSDK = ["按钮","Alert","正则表达式","其他控件"]
     var LearnCourses_ThirdLabs = ["AFNetworking"]
     var LearnCourses_SomeKnowledge = ["Swift的内联优化"]
     
@@ -109,6 +109,8 @@ class ViewController: UITableViewController {
                 PresentVC = ButtonViewController(nibName: "ButtonView", bundle: nil)
             case 1:
                 PresentVC = AlertViewController(nibName: "AlertViewController", bundle: nil)
+            case 2:
+                PresentVC = NSTextCheckingResultViewController(nibName: "NSTextCheckingResultViewController", bundle: nil)
             default:
                 PresentVC = nil
             }
