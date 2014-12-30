@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0586C3EE1A52387100EFFBF5 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */; };
+		0586C3EF1A52387100EFFBF5 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */; };
 		05B7966C1A4BB942004A4A99 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796601A4BB942004A4A99 /* a.jpg */; };
 		05B7966D1A4BB942004A4A99 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796611A4BB942004A4A99 /* b.jpg */; };
 		05B7966E1A4BB942004A4A99 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B796621A4BB942004A4A99 /* back@2x.png */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = SecondVC/AlertViewController.swift; sourceTree = "<group>"; };
+		0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlertViewController.xib; path = SecondVC/AlertViewController.xib; sourceTree = "<group>"; };
 		05B796601A4BB942004A4A99 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		05B796611A4BB942004A4A99 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 		05B796621A4BB942004A4A99 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 				05B968291A4D07030063FA22 /* InLineSwiftViewController.xib */,
 				05B9682C1A4D42340063FA22 /* DetailPageViewController.swift */,
 				05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */,
+				0586C3EC1A52387100EFFBF5 /* AlertViewController.swift */,
+				0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				05B9682F1A4D42340063FA22 /* DetailPageViewController.xib in Resources */,
 				05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */,
 				05B796751A4BB942004A4A99 /* Safari.png in Resources */,
+				0586C3EF1A52387100EFFBF5 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B9682E1A4D42340063FA22 /* DetailPageViewController.swift in Sources */,
+				0586C3EE1A52387100EFFBF5 /* AlertViewController.swift in Sources */,
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
