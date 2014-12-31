@@ -13,6 +13,8 @@ class AFNetWorkViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       self.monitorNetworkType()
+      var notifaction = JFMinimalNotification(style: JFMinimalNotificationStytle.StyleDefault, title: "NiHao", subTitle: "zhe shi xiang xin xi")
+      self.view.addSubview(notifaction)
         // Do any additional setup after loading the view.
     }
 
