@@ -117,6 +117,18 @@ class ViewController: UITableViewController {
             if PresentVC != nil {
                 self.navigationController?.pushViewController(PresentVC!, animated: true)
             }
+          //MARK: IOS第三方库
+        case 2:
+          var PresentVC:UIViewController?
+          switch indexPath.row {
+          case 0:
+            PresentVC = AFNetWorkViewController(nibName: "AFNetWorkViewController", bundle: nil)
+          default:
+            PresentVC = nil
+          }
+          if PresentVC != nil {
+            self.navigationController?.pushViewController(PresentVC!, animated: true)
+          }
         case 3:
             var PresentVC:UIViewController?
             switch indexPath.row {
