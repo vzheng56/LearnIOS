@@ -31,15 +31,20 @@
 		05B9682F1A4D42340063FA22 /* DetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B9682D1A4D42340063FA22 /* DetailPageViewController.xib */; };
 		05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BD1A4BA02900CA76BA /* AppDelegate.swift */; };
 		05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76BF1A4BA02900CA76BA /* ViewController.swift */; };
-		05BF76C31A4BA02900CA76BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C11A4BA02900CA76BA /* Main.storyboard */; };
 		05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C41A4BA02900CA76BA /* Images.xcassets */; };
-		05BF76C81A4BA02900CA76BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C61A4BA02900CA76BA /* LaunchScreen.xib */; };
 		05BF76D41A4BA02900CA76BA /* LearnIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76D31A4BA02900CA76BA /* LearnIOSTests.swift */; };
 		05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */; };
 		05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76E01A4BAA7600CA76BA /* ButtonView.xib */; };
 		05D2B92C1A5A26FC00EC375B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D2B9291A5A26F300EC375B /* Alamofire.framework */; };
 		05D2B92F1A5A27F700EC375B /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D2B92D1A5A27F700EC375B /* AlamofireViewController.swift */; };
 		05D2B9301A5A27F700EC375B /* AlamofireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D2B92E1A5A27F700EC375B /* AlamofireViewController.xib */; };
+		05D2B9341A5A6BB300EC375B /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D2B9321A5A6BB300EC375B /* SceneKitViewController.swift */; };
+		05D2B9351A5A6BB300EC375B /* SceneKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D2B9331A5A6BB300EC375B /* SceneKitViewController.xib */; };
+		05D2B9391A5A742300EC375B /* earth_diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05D2B9381A5A742300EC375B /* earth_diffuse.jpg */; };
+		05D2B93C1A5A7F7500EC375B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D2B9291A5A26F300EC375B /* Alamofire.framework */; };
+		05D2B93D1A5A7F7500EC375B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05D2B9291A5A26F300EC375B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05D2B9411A5A805000EC375B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C11A4BA02900CA76BA /* Main.storyboard */; };
+		05D2B9421A5A805300EC375B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BF76C61A4BA02900CA76BA /* LaunchScreen.xib */; };
 		05D6B9461A53E84A008AC347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6B9451A53E84A008AC347 /* Foundation.framework */; };
 		05D6B9481A53E850008AC347 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6B9471A53E850008AC347 /* UIKit.framework */; };
 		05D6B9491A53EA76008AC347 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6B9431A53E7CC008AC347 /* CoreGraphics.framework */; };
@@ -68,7 +73,28 @@
 			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
 			remoteInfo = AlamofireTests;
 		};
+		05D2B93E1A5A7F7500EC375B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D2B9231A5A26F300EC375B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05D2B9401A5A7F7500EC375B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05D2B93D1A5A7F7500EC375B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0547B8AE1A53D947001A35CD /* LearnIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnIOS-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -109,6 +135,10 @@
 		05D2B9231A5A26F300EC375B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		05D2B92D1A5A27F700EC375B /* AlamofireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireViewController.swift; path = SecondVC/AlamofireViewController.swift; sourceTree = "<group>"; };
 		05D2B92E1A5A27F700EC375B /* AlamofireViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlamofireViewController.xib; path = SecondVC/AlamofireViewController.xib; sourceTree = "<group>"; };
+		05D2B9321A5A6BB300EC375B /* SceneKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneKitViewController.swift; path = SecondVC/SceneKitViewController.swift; sourceTree = "<group>"; };
+		05D2B9331A5A6BB300EC375B /* SceneKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SceneKitViewController.xib; path = SecondVC/SceneKitViewController.xib; sourceTree = "<group>"; };
+		05D2B9381A5A742300EC375B /* earth_diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_diffuse.jpg; sourceTree = "<group>"; };
+		05D2B93A1A5A755000EC375B /* 720_gongfu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 720_gongfu.mp4; sourceTree = "<group>"; };
 		05D6B9431A53E7CC008AC347 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		05D6B9451A53E84A008AC347 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05D6B9471A53E850008AC347 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -122,9 +152,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D2B92C1A5A26FC00EC375B /* Alamofire.framework in Frameworks */,
 				05D6B9491A53EA76008AC347 /* CoreGraphics.framework in Frameworks */,
+				05D2B93C1A5A7F7500EC375B /* Alamofire.framework in Frameworks */,
 				05D6B9481A53E850008AC347 /* UIKit.framework in Frameworks */,
+				05D2B92C1A5A26FC00EC375B /* Alamofire.framework in Frameworks */,
 				05D6B9461A53E84A008AC347 /* Foundation.framework in Frameworks */,
 				8816103F27797AC72C511183 /* libPods.a in Frameworks */,
 			);
@@ -235,6 +266,8 @@
 		05BF76DD1A4BAA1D00CA76BA /* SecondVC */ = {
 			isa = PBXGroup;
 			children = (
+				05D2B93A1A5A755000EC375B /* 720_gongfu.mp4 */,
+				05D2B9381A5A742300EC375B /* earth_diffuse.jpg */,
 				05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */,
 				05BF76E01A4BAA7600CA76BA /* ButtonView.xib */,
 				05B968241A4CF1620063FA22 /* OtherControlsViewController.swift */,
@@ -249,6 +282,8 @@
 				0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */,
 				05D2B92D1A5A27F700EC375B /* AlamofireViewController.swift */,
 				05D2B92E1A5A27F700EC375B /* AlamofireViewController.xib */,
+				05D2B9321A5A6BB300EC375B /* SceneKitViewController.swift */,
+				05D2B9331A5A6BB300EC375B /* SceneKitViewController.xib */,
 			);
 			name = SecondVC;
 			sourceTree = "<group>";
@@ -283,10 +318,12 @@
 				05BF76B51A4BA02900CA76BA /* Frameworks */,
 				05BF76B61A4BA02900CA76BA /* Resources */,
 				6FB7844CEC36C97809477638 /* Copy Pods Resources */,
+				05D2B9401A5A7F7500EC375B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				05D2B93F1A5A7F7500EC375B /* PBXTargetDependency */,
 			);
 			name = LearnIOS;
 			productName = LearnIOS;
@@ -377,18 +414,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0586C3F31A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib in Resources */,
+				05D2B9391A5A742300EC375B /* earth_diffuse.jpg in Resources */,
 				05B796701A4BB942004A4A99 /* Icon.png in Resources */,
+				05D2B9351A5A6BB300EC375B /* SceneKitViewController.xib in Resources */,
 				05B7966D1A4BB942004A4A99 /* b.jpg in Resources */,
 				05B796741A4BB942004A4A99 /* play@2x.png in Resources */,
 				05B9682B1A4D07030063FA22 /* InLineSwiftViewController.xib in Resources */,
 				05B7966F1A4BB942004A4A99 /* comment.png in Resources */,
 				05B796711A4BB942004A4A99 /* next@2x.png in Resources */,
 				05B796761A4BB942004A4A99 /* ssicon.png in Resources */,
-				05BF76C31A4BA02900CA76BA /* Main.storyboard in Resources */,
 				05B796721A4BB942004A4A99 /* panovideotext.png in Resources */,
-				05BF76C81A4BA02900CA76BA /* LaunchScreen.xib in Resources */,
+				05D2B9411A5A805000EC375B /* Main.storyboard in Resources */,
 				05B796731A4BB942004A4A99 /* pause@2x.png in Resources */,
 				05B7966E1A4BB942004A4A99 /* back@2x.png in Resources */,
+				05D2B9421A5A805300EC375B /* LaunchScreen.xib in Resources */,
 				05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */,
 				05B796771A4BB942004A4A99 /* zubuchuhutext.png in Resources */,
 				05B7966C1A4BB942004A4A99 /* a.jpg in Resources */,
@@ -456,6 +495,7 @@
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
 				05B9682A1A4D07030063FA22 /* InLineSwiftViewController.swift in Sources */,
+				05D2B9341A5A6BB300EC375B /* SceneKitViewController.swift in Sources */,
 				05B968261A4CF1620063FA22 /* OtherControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +515,11 @@
 			isa = PBXTargetDependency;
 			target = 05BF76B71A4BA02900CA76BA /* LearnIOS */;
 			targetProxy = 05BF76CE1A4BA02900CA76BA /* PBXContainerItemProxy */;
+		};
+		05D2B93F1A5A7F7500EC375B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 05D2B93E1A5A7F7500EC375B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -602,6 +648,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

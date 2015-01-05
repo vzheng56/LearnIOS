@@ -14,8 +14,15 @@ class AlamofireViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      Alamofire.request(.GET, "https://api.500px.com/v1/photos").responseJSON() {
+      //http://op.juhe.cn/onebox/weather/query?cityname=%E6%B8%A9%E5%B7%9E&key=2d54fd1ee89a1486d39a44a1e0886345
+      //http://op.juhe.cn/onebox/weather/query?cityname=北京&key＝2d54fd1ee89a1486d39a44a1e0886345
+      //http://op.juhe.cn/onebox/weather/query?cityname=%E5%8C%97%E4%BA%AC&key=2d54fd1ee89a1486d39a44a1e0886345
+      //http://op.juhe.cn/onebox/weather/query?cityname=北京&key=2d54fd1ee89a1486d39a44a1e0886345
+      Alamofire.request(.GET, "http://op.juhe.cn/onebox/weather/query?cityname=%E5%8C%97%E4%BA%AC&key=2d54fd1ee89a1486d39a44a1e0886345&dtype=json").responseString {
         (_, _, data, _) in
+        
+       // var nsdata = NSData(data: <#NSData#>)
+      //  var getData = NSString(data: data! as NSData, encoding: NSUTF8StringEncoding)
         println(data)
       }
         // Do any additional setup after loading the view.
