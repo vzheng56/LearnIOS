@@ -8,17 +8,19 @@
 
 import UIKit
 
+
 class ViewController: UITableViewController {
 
     var LearnLevels = ["Swift基础知识","IOSSDK","第三方库","零碎知识点"]
     var LearnCourses_SwiftBase = ["闭包","其他知识"]
     var LearnCourses_IOSSDK = ["按钮","Alert","正则表达式","其他控件"]
-    var LearnCourses_ThirdLabs = ["AFNetworking"]
+    var LearnCourses_ThirdLabs = ["Alamofire","JFMinimalNotification"]
     var LearnCourses_SomeKnowledge = ["Swift的内联优化"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.backgroundColor = UIColor.whiteColor()
+      
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -122,7 +124,7 @@ class ViewController: UITableViewController {
           var PresentVC:UIViewController?
           switch indexPath.row {
           case 0:
-            PresentVC = AFNetWorkViewController(nibName: "AFNetWorkViewController", bundle: nil)
+            PresentVC = AlamofireViewController(nibName: "AlamofireViewController", bundle: nil)
           default:
             PresentVC = nil
           }

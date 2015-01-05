@@ -1,39 +1,39 @@
 //
-//  InLineSwiftViewController.swift
+//  AlamofireViewController.swift
 //  LearnIOS
 //
-//  Created by mini4s220 on 14/12/26.
-//  Copyright (c) 2014年 mini4s220. All rights reserved.
+//  Created by mini4s220 on 15/1/5.
+//  Copyright (c) 2015年 mini4s220. All rights reserved.
 //
 
 import UIKit
+import Alamofire
 
-class InLineSwiftViewController: UIViewController {
+class AlamofireViewController: UIViewController {
 
-    @IBOutlet weak var InlineBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        InlineBtn.addTarget(self, action: "inLineTest", forControlEvents: UIControlEvents.TouchUpInside)
+      Alamofire.request(.GET, "https://api.500px.com/v1/photos").responseJSON() {
+        (_, _, data, _) in
+        println(data)
+      }
         // Do any additional setup after loading the view.
     }
-    @objc private func inLineTest() {
-        println("Called!")
-    }
-  
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
-    }
+  
+  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+  }
 
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+  required init(coder aDecoder: NSCoder) {
+      fatalError("init(coder:) has not been implemented")
+  }
+
     /*
     // MARK: - Navigation
 
