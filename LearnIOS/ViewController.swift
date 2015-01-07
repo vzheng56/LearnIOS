@@ -14,7 +14,7 @@ class ViewController: UITableViewController {
     var LearnLevels = ["Swift基础知识","IOSSDK","第三方库","零碎知识点"]
     var LearnCourses_SwiftBase = ["闭包","其他知识"]
     var LearnCourses_IOSSDK = ["按钮","Alert","正则表达式","SceneKit","其他控件"]
-    var LearnCourses_ThirdLabs = ["Alamofire","JFMinimalNotification"]
+    var LearnCourses_ThirdLabs = ["Alamofire","MBProgressHUD","JFMinimalNotification"]
     var LearnCourses_SomeKnowledge = ["Swift的内联优化"]
     
     override func viewDidLoad() {
@@ -27,6 +27,9 @@ class ViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+      
+      var error = NSError()
+      
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -127,6 +130,10 @@ class ViewController: UITableViewController {
           switch indexPath.row {
           case 0:
             PresentVC = AlamofireViewController(nibName: "AlamofireViewController", bundle: nil)
+          case 1:
+            PresentVC = PrecessViewController(nibName: "PrecessViewController", bundle: nil)
+          case 2:
+            PresentVC = JFMinimalNotificationViewController(nibName: "JFMinimalNotificationViewController", bundle: nil)
           default:
             PresentVC = nil
           }

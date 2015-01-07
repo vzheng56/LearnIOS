@@ -1,10 +1,16 @@
 PODS:
   - JFMinimalNotifications (0.0.2)
+  - MBProgressHUD (0.9)
+  - RESideMenu (4.0.7)
 
 DEPENDENCIES:
   - JFMinimalNotifications (~> 0.0.2)
+  - MBProgressHUD (~> 0.8)
+  - RESideMenu (~> 4.0.7)
 
 SPEC CHECKSUMS:
   JFMinimalNotifications: 8d8953b7c64a9def469abbd6ba051b47ff53946e
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
 
 COCOAPODS: 0.34.4

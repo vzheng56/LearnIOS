@@ -11,6 +11,10 @@
 		0586C3EF1A52387100EFFBF5 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */; };
 		0586C3F21A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */; };
 		0586C3F31A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */; };
+		05B317341A5D3FE4004B3EC5 /* PrecessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B317321A5D3FE4004B3EC5 /* PrecessViewController.swift */; };
+		05B317351A5D3FE4004B3EC5 /* PrecessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B317331A5D3FE4004B3EC5 /* PrecessViewController.xib */; };
+		05B317381A5D4363004B3EC5 /* JFMinimalNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B317361A5D4363004B3EC5 /* JFMinimalNotificationViewController.swift */; };
+		05B317391A5D4363004B3EC5 /* JFMinimalNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B317371A5D4363004B3EC5 /* JFMinimalNotificationViewController.xib */; };
 		05B7966C1A4BB942004A4A99 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796601A4BB942004A4A99 /* a.jpg */; };
 		05B7966D1A4BB942004A4A99 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05B796611A4BB942004A4A99 /* b.jpg */; };
 		05B7966E1A4BB942004A4A99 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B796621A4BB942004A4A99 /* back@2x.png */; };
@@ -102,6 +106,10 @@
 		0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlertViewController.xib; path = SecondVC/AlertViewController.xib; sourceTree = "<group>"; };
 		0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSTextCheckingResultViewController.swift; path = SecondVC/NSTextCheckingResultViewController.swift; sourceTree = "<group>"; };
 		0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NSTextCheckingResultViewController.xib; path = SecondVC/NSTextCheckingResultViewController.xib; sourceTree = "<group>"; };
+		05B317321A5D3FE4004B3EC5 /* PrecessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrecessViewController.swift; path = SecondVC/PrecessViewController.swift; sourceTree = "<group>"; };
+		05B317331A5D3FE4004B3EC5 /* PrecessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrecessViewController.xib; path = SecondVC/PrecessViewController.xib; sourceTree = "<group>"; };
+		05B317361A5D4363004B3EC5 /* JFMinimalNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JFMinimalNotificationViewController.swift; path = SecondVC/JFMinimalNotificationViewController.swift; sourceTree = "<group>"; };
+		05B317371A5D4363004B3EC5 /* JFMinimalNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JFMinimalNotificationViewController.xib; path = SecondVC/JFMinimalNotificationViewController.xib; sourceTree = "<group>"; };
 		05B796601A4BB942004A4A99 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		05B796611A4BB942004A4A99 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 		05B796621A4BB942004A4A99 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
@@ -177,6 +185,19 @@
 				8BC3F9753548C5B8D7DEEBE2 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05B317301A5D3FBF004B3EC5 /* ThirdLabs */ = {
+			isa = PBXGroup;
+			children = (
+				05D2B92D1A5A27F700EC375B /* AlamofireViewController.swift */,
+				05D2B92E1A5A27F700EC375B /* AlamofireViewController.xib */,
+				05B317321A5D3FE4004B3EC5 /* PrecessViewController.swift */,
+				05B317331A5D3FE4004B3EC5 /* PrecessViewController.xib */,
+				05B317361A5D4363004B3EC5 /* JFMinimalNotificationViewController.swift */,
+				05B317371A5D4363004B3EC5 /* JFMinimalNotificationViewController.xib */,
+			);
+			name = ThirdLabs;
 			sourceTree = "<group>";
 		};
 		05B7965F1A4BB942004A4A99 /* Resourse */ = {
@@ -266,6 +287,7 @@
 		05BF76DD1A4BAA1D00CA76BA /* SecondVC */ = {
 			isa = PBXGroup;
 			children = (
+				05B317301A5D3FBF004B3EC5 /* ThirdLabs */,
 				05D2B93A1A5A755000EC375B /* 720_gongfu.mp4 */,
 				05D2B9381A5A742300EC375B /* earth_diffuse.jpg */,
 				05BF76DE1A4BAA4600CA76BA /* ButtonViewController.swift */,
@@ -280,8 +302,6 @@
 				0586C3ED1A52387100EFFBF5 /* AlertViewController.xib */,
 				0586C3F01A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift */,
 				0586C3F11A526C4500EFFBF5 /* NSTextCheckingResultViewController.xib */,
-				05D2B92D1A5A27F700EC375B /* AlamofireViewController.swift */,
-				05D2B92E1A5A27F700EC375B /* AlamofireViewController.xib */,
 				05D2B9321A5A6BB300EC375B /* SceneKitViewController.swift */,
 				05D2B9331A5A6BB300EC375B /* SceneKitViewController.xib */,
 			);
@@ -430,9 +450,11 @@
 				05D2B9421A5A805300EC375B /* LaunchScreen.xib in Resources */,
 				05BF76E11A4BAA7600CA76BA /* ButtonView.xib in Resources */,
 				05B796771A4BB942004A4A99 /* zubuchuhutext.png in Resources */,
+				05B317351A5D3FE4004B3EC5 /* PrecessViewController.xib in Resources */,
 				05B7966C1A4BB942004A4A99 /* a.jpg in Resources */,
 				05B968271A4CF1620063FA22 /* OtherControlsViewController.xib in Resources */,
 				05B9682F1A4D42340063FA22 /* DetailPageViewController.xib in Resources */,
+				05B317391A5D4363004B3EC5 /* JFMinimalNotificationViewController.xib in Resources */,
 				05BF76C51A4BA02900CA76BA /* Images.xcassets in Resources */,
 				05D2B9301A5A27F700EC375B /* AlamofireViewController.xib in Resources */,
 				05B796751A4BB942004A4A99 /* Safari.png in Resources */,
@@ -488,9 +510,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B9682E1A4D42340063FA22 /* DetailPageViewController.swift in Sources */,
+				05B317381A5D4363004B3EC5 /* JFMinimalNotificationViewController.swift in Sources */,
 				0586C3EE1A52387100EFFBF5 /* AlertViewController.swift in Sources */,
 				05BF76C01A4BA02900CA76BA /* ViewController.swift in Sources */,
 				0586C3F21A526C4500EFFBF5 /* NSTextCheckingResultViewController.swift in Sources */,
+				05B317341A5D3FE4004B3EC5 /* PrecessViewController.swift in Sources */,
 				05D2B92F1A5A27F700EC375B /* AlamofireViewController.swift in Sources */,
 				05BF76DF1A4BAA4600CA76BA /* ButtonViewController.swift in Sources */,
 				05BF76BE1A4BA02900CA76BA /* AppDelegate.swift in Sources */,
