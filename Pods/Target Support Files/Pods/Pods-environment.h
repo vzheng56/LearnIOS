@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_JFMinimalNotifications 0
 #define COCOAPODS_VERSION_PATCH_JFMinimalNotifications 2
 
+// LTMorphingLabel
+#define COCOAPODS_POD_AVAILABLE_LTMorphingLabel
+#define COCOAPODS_VERSION_MAJOR_LTMorphingLabel 0
+#define COCOAPODS_VERSION_MINOR_LTMorphingLabel 0
+#define COCOAPODS_VERSION_PATCH_LTMorphingLabel 3
+
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
 #define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
