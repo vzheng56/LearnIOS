@@ -379,6 +379,7 @@
 				TargetAttributes = {
 					05BF76B71A4BA02900CA76BA = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MCV7BLDJX9;
 					};
 					05BF76CC1A4BA02900CA76BA = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -658,7 +659,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LearnIOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LearnIOS/LearnIOS-Bridging-Header.h";
@@ -678,7 +679,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LearnIOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LearnIOS/LearnIOS-Bridging-Header.h";
